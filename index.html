@@ -1,0 +1,106 @@
+<!doctype html>
+    <html lang="en-us">
+        <head>
+            <meta charset="utf-8" />
+            <title>Crystals Guessing Game</title>
+            
+
+            <!--- Reset CSS file--->
+            <link rel="stylesheet" href = "assets/css/reset.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            
+            <!-- Bootstrap CSS -->
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+           
+            <!--Personalized Styling-->
+            <link rel = "stylesheet" href="assets/css/style.css"> 
+           
+            <!--JQuery link-->   
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script type="text/javascript" src="assets/javascript/game.js"></script>
+        </head>
+
+        <body>
+            <header class = 'container'>
+                <div class = 'row'> 
+                    <div class="col-lg-6">
+                        <div class="jumbotron">
+                            <h2 class="display-6">Welcome to the Crystals Guessing Game</h2>
+                            <p class="lead">This is a simple game, where you try to match the number that is given to you at the beginning of the game.</p>
+                            <hr class="my-1">
+                            <a id = "playButton" class="btn btn-primary btn-lg"  href="#" role="button">Let's Play!</a>   
+                        </div>
+                    </div>        
+                           
+                    <div class="col-lg-6">
+                        <h3>Instructions</h3>
+                        <div class = "panel panel-primary">
+                            <div class="panel-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item list-group-item-success">Each crystal is assigned a random number at the start of the game.</li>
+                                    <li class="list-group-item list-group-item-success" >When you click on a crystal its value is revealed to you and added to your score</li>
+                                    <li class="list-group-item list-group-item-success">You win when your score matches the number given to you at the start of the game</li>
+                                    <li class="list-group-item list-group-item-success">If you go over the number you lose</li>
+                                    <li class="list-group-item list-group-item-success">The game restarts when you win or lose and a new number is displayed and the crystals
+                                        are assigned new values.  Good luck!</li>
+                                </ul>   
+                            </div>
+                        </div> 
+                    </div>
+                                       
+                </div>   
+            </header> 
+            <section  class="container">
+                <div class = "row">
+                    <div class="col-lg-3">
+                        <div id = "Stats" class = "panel panel-default">
+                            <div id = "Wins" class='panel-body'>Wins: </div>
+                            <div id = "Losses" class='panel-body'>Losses: </div>
+                        </div>
+                    </div>
+                    <div class = "col-lg-4">
+                        <div><h2 id = "target">Your target number: </h2></div>
+                    </div>
+                    <div class = "col-lg-3">
+                        <div><h2>Your score: <div id = "score"></div> </h2></div>
+                    </div>
+                </div>
+                <div class = "row"> 
+                    <div class="column">
+                        <a href="#"> 
+                            <img  class = "gem" src = "assets/images/drawing-gems-amethyst.png" class = "button">
+                        </a>
+                        </div>
+                    <div class="column">
+                        <a href="#">
+                            <img class="gem" src = "assets/images/drawing-gemstones-ruby-3.png">
+                        </a>    
+                    </div>
+                    <div class='column'>
+                        <a href="#">
+                            <img class="gem" src = "assets/images/blue-transparent-sapphire-3.png">
+                        </a>
+                    </div>
+                    <div class = "column">
+                        <a href="#">
+                            <img class="gem" src = "assets/images/emerald.png">
+                        </a>    
+                    </div>
+                </div>
+            </section>  
+
+            <script>
+
+       
+                
+            </script>            
+                                
+                            
+                   
+
+
+        </body>
+
+
+
+    </html>
